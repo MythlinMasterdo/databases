@@ -9,7 +9,7 @@ CREATE TABLE messages (
   userid int NOT NULL,
   text varchar(200)  NOT NULL,
   roomname varchar(20),
-  PRIMARY KEY (ID)
+  PRIMARY KEY (id)
 );
 
 /* Create other tables and define schemas for them here! */
@@ -18,7 +18,7 @@ CREATE TABLE messages (
 CREATE TABLE users (
   id        int    NOT NULL AUTO_INCREMENT,
   username  varchar(40)   NOT NULL,
-  PRIMARY KEY (ID)
+  PRIMARY KEY (id)
 );
 
 
